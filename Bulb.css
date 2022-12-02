@@ -1,0 +1,68 @@
+body{
+    background-color: black;
+    
+}
+
+
+
+
+
+#bulb{
+    height:auto;
+    max-width:500px;
+    max-height: 600px;
+    padding-top:20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:3rem ;
+    transform: rotate(180deg);
+    }
+
+
+    .myButton-on {
+    border-radius:15px;
+    border:1px solid #030721;
+    cursor:pointer;
+    background: #006400;
+    color:#ffffff;
+    font-family: 'Rubik Microbe', cursive;
+    font-size:32px;
+    font-weight:800;
+    padding:10px 40px;
+    text-decoration:none;
+    margin-left: 500px;
+    margin-top: 200px;  
+    text-shadow:2px 2px 7px #090a10;
+    }
+
+
+    .myButton-on:hover {
+    background-color:#00ff00;
+
+    }
+   
+
+
+    .myButton-off {
+    border-radius:15px;
+    border:1px solid #030721;
+    cursor:pointer;
+    background: #8b0000;
+    color:#ffffff;
+    font-family: 'Rubik Microbe', cursive;
+    font-size:32px;
+    font-weight:800;
+    padding:10px 40px;
+    text-decoration:none;
+    text-shadow:2px 2px 7px #090a10;
+    margin-left: 50px;
+    margin-top: 50px;
+    }
+
+
+    
+    .myButton-off:hover {
+    background-color:red;
+    }
+    
